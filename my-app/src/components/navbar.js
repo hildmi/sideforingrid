@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/Navbar.css";
+import "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/styles/navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {

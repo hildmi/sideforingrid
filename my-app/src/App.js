@@ -1,19 +1,21 @@
 import logo from "./logo.svg";
-import bilde from "./bilde.JPG";
 import "./App.css";
+import HomePage from "./pages/HomePage";
+import InformationPage from "./pages/InformationPage";
+import { Link, BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Router>
+      <div className="App">
+        <Navbar />
         <Routes>
-          <Route path="/" element={HomePage}></Route>
+          <Route path="/home" element={HomePage}></Route>
+          <Route path="/informasjon" element={InformationPage}></Route>
         </Routes>
-        <h4 className="App-navy">Vi gifter oss i 2025 TBA</h4>
-        <h2 className="App-navy">Ingrid og Rasmus</h2>
-        <img src={bilde} className="App-bilde" alt="bilde" />
-      </header>
-    </div>
+      </div>
+    </Router>
   );
 }
 
