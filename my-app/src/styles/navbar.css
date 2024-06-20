@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 22%;
-  margin-left: auto;
-  background-color: rgba(240, 248, 255, 0);
+  width: 100%;
+  background-color: #fcfbf4;
+  padding-top: 0%;
 }
 
 .nav-link {
@@ -12,7 +12,8 @@
   font-family: "Helvetica";
   text-decoration: none;
   position: relative;
-  color: #1e1e1e;
+  color: #8d9e7f;
+  padding: 5%;
 }
 
 .nav-link:hover {
