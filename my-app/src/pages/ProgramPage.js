@@ -34,7 +34,9 @@ function ProgramPage() {
 
         <h1 className="App-header">Program Lørdag</h1>
         <h3 className="App-header2">Vielse Kl.15.00-16.00</h3>
-        <h4 className="App-program-beskrivelse">Vielsen er i Risør Kirke</h4>
+        <h4 className="App-program-beskrivelse">
+          Vielsen finner sted i Risør Kirke
+        </h4>
         <MapComponent center={position} MarkerPosition={MarkerPosition} />
         <h1 className="App-header">Mottakelse på Sundet</h1>
         <h3 className="App-header2">Fra Kl.16 og utover</h3>
@@ -48,12 +50,24 @@ function ProgramPage() {
 
         <h1 className="App-header">Middag</h1>
         <h3 className="App-header2">Kl.18.00</h3>
-        <h4 className="App-program-beskrivelse-siste">
-          Kontakt toastmaster{" "}
+        <h4 className="App-program-beskrivelse">
+          {" "}
+          Treretters middag av Risørkokken blir servert. Kontakt toastmaster{" "}
           <Link to={"/informasjon"} className="App-link">
             HER
           </Link>{" "}
-          for å melde inn tale eller andre innslag.
+          for å melde inn tale eller andre innslag. <br /> Dersom du har noen
+          allergier eller dietter, gjerne meld fra i god tid til brudgommens mor
+          Anne{" "}
+          <Link to={"/informasjon"} className="App-link">
+            HER.
+          </Link>
+        </h4>
+
+        <h1 className="App-header">Fest i Biljarden</h1>
+        <h4 className="App-program-beskrivelse-siste">
+          Det blir fest på Sundet og underholdning med nær familievenn av bruden
+          Erlend Torheim fra PandaPanda som DJ.
         </h4>
       </div>
     </div>
