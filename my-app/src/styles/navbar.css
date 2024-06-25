@@ -8,12 +8,13 @@
 }
 
 .nav-link {
-  font-size: 13px;
+  font-size: 18px;
   font-family: "Helvetica";
   text-decoration: none;
   position: relative;
-  color: #8d9e7f;
-  padding: 5%;
+  color: #696a50;
+  padding-top: 0;
+  font-weight: 600;
 }
 
 .nav-link:hover {

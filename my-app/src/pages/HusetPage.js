@@ -2,8 +2,8 @@ import React from "react";
 
 function HusetPage() {
   return (
-    <div>
-      <h1>This is the huset page</h1>
+    <div className="App-parent-container">
+      <h1 className="App-header">tesT</h1>
     </div>
   );
 }

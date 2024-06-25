@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <Link to="/hjem" className="nav-link">
+      <Link to="/" className="nav-link">
         HOVEDSIDE
       </Link>
       <Link to="/informasjon" className="nav-link">

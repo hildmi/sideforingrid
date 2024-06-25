@@ -17,8 +17,14 @@
 .App-navy {
   color: #b1bfa5;
   font-family: "Helvetica";
+  font-size: large;
   font-style: italic;
   align-items: center;
+}
+
+.App-green-medium {
+  color: #696a50;
+  font-family: "Helvetica";
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,19 +33,8 @@
   }
 }
 
-.App-header {
-  background-color: #fcfbf4;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
-  color: #61dafb;
+  color: #66545e;
 }
 
 @keyframes App-logo-spin {
@@ -49,4 +44,74 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 1%;
+  padding: 0;
+  background-color: #fcfbf4; /* Set background color for the entire page */
+}
+
+.App-parent-container {
+  flex-direction: row;
+  display: flex;
+  height: 100%;
+}
+
+.App-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.App-text-small {
+  color: #696a50;
+}
+
+.App-header {
+  text-align: center;
+  font-style: italic;
+  font-family: "Helvetica";
+  justify-content: center;
+  padding-top: 10%;
+  font-size: 40px;
+  color: #696a50;
+  font-weight: 600;
+}
+
+.App-header2 {
+  text-align: center;
+  color: #696a50;
+  font-style: italic;
+  font-family: "Helvetica";
+  justify-content: center;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 0%;
+}
+
+.App-program-beskrivelse {
+  text-align: center;
+  color: #696a50;
+  font-style: italic;
+  font-family: "Helvetica";
+  justify-content: center;
+  font-weight: 200;
+  margin: 0;
+  font-size: 23px;
+}
+
+.App-program-beskrivelse-siste {
+  text-align: center;
+  color: #696a50;
+  font-style: italic;
+  font-family: "Helvetica";
+  justify-content: center;
+  font-weight: 200;
+  margin: 0;
+  font-size: 23px;
+  padding-bottom: 10%;
 }
