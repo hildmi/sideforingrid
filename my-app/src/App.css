@@ -115,3 +115,40 @@ body {
   font-size: 23px;
   padding-bottom: 10%;
 }
+
+.App-header-frontpage {
+  text-align: center;
+  font-style: italic;
+  font-family: "Helvetica";
+  justify-content: center;
+  padding-top: 5%;
+  font-size: 40px;
+  color: #696a50;
+  font-weight: 600;
+}
+
+.App-frontpage2 {
+  text-align: center;
+  color: #696a50;
+  font-family: "Helvetica";
+  justify-content: center;
+  font-weight: 200;
+  margin: 0;
+  font-size: 30px;
+}
+
+.App-img-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start; /* Changed to 'flex-start' for better compatibility */
+  align-items: flex-start; /* Align items to the start (left) */
+  width: 50%;
+  height: 100%;
+}
+
+.App-bilde {
+  padding-top: 20%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+}

@@ -1,11 +1,21 @@
 import React from "react";
+import bilde from "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/bilde.JPG";
 
 function InformationPage() {
   return (
-    <div>
-      <h1 className="App-navy">
-        Denne siden vil inneholde generell informasjon om bryllupet
-      </h1>
+    <div className="App-parent-container">
+      <div className="App-img-container">
+        <img src={bilde} className="App-bilde" alt="bilde" />
+      </div>
+      <div className="App-img-container">
+        <img src={bilde} className="App-bilde" alt="bilde" />
+      </div>
+      <div className="App-img-container">
+        <img src={bilde} className="App-bilde" alt="bilde" />
+      </div>
+      <div className="App-img-container">
+        <img src={bilde} className="App-bilde" alt="bilde" />
+      </div>
     </div>
   );
 }
