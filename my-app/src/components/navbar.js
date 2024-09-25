@@ -9,9 +9,6 @@ const Navbar = () => {
       <Link to="/" className="nav-link">
         HOVEDSIDE
       </Link>
-      <Link to="/informasjon" className="nav-link">
-        INFORMASJON
-      </Link>
       <Link to="/overnatting" className="nav-link">
         OVERNATTING
       </Link>

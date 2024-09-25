@@ -146,8 +146,35 @@ body {
   height: 100%;
 }
 
+.App-img-container-overnatting {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start; /* Changed to 'flex-start' for better compatibility */
+  align-items: flex-start; /* Align items to the start (left) */
+  width: 100%;
+  height: 1400px;
+}
+
 .App-bilde {
   padding-top: 20%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+.App-overnatting3 {
+  padding-top: 8%;
+  text-align: center;
+  color: #696a50;
+  font-family: "Helvetica";
+  justify-content: center;
+  font-weight: 200;
+  margin: 0;
+  font-size: 30px;
+}
+
+.App-bilde-overnatting {
+  padding-top: 10%;
   width: 100%;
   height: 100%;
   padding-bottom: 10%;
