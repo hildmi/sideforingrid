@@ -39,9 +39,6 @@ function OvernattingPage() {
           https://www.risorpensjonat.no/kontakt/
         </a>
       </h3>
-      <div className="App-img-container-overnatting">
-        <img src={sjoen} className="App-bilde-overnatting" alt="sjoen" />
-      </div>
     </div>
   );
 }

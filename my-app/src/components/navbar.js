@@ -15,11 +15,14 @@ const Navbar = () => {
       <Link to="/ønskeliste" className="nav-link">
         ØNSKELISTE
       </Link>
+      <Link to="/program" className="nav-link">
+        PROGRAM
+      </Link>
       <Link to="/huset" className="nav-link">
         OM STEDET
       </Link>
-      <Link to="/program" className="nav-link">
-        PROGRAM
+      <Link to="/informasjon" className="nav-link">
+        INFORMASJON
       </Link>
     </nav>
   );
