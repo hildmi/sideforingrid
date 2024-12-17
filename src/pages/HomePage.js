@@ -1,8 +1,8 @@
 import React from "react";
-import bilde from "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/bilde.JPG";
-import sundet from "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/sundet.jpeg";
-import begge from "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/begge.jpg";
-import fisketur from "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/IMG_3680.jpg";
+import bilde from "../bilde.JPG";
+import sundet from "../sundet.jpeg";
+import begge from "../begge.jpg";
+import fisketur from "../IMG_3680.jpg";
 
 function HomePage() {
   return (

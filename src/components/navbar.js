@@ -1,6 +1,6 @@
 import React from "react";
-import "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/styles/navbar.css";
-import "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/App.css";
+import "../styles/navbar.css";
+import "../App.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
