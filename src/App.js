@@ -1,12 +1,12 @@
-import "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/App.css";
-import HomePage from "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/pages/HomePage.js";
+import "./App.css";
+import HomePage from "./pages/HomePage.js";
 import InformationPage from "./pages/InformationPage";
 import HusetPage from "./pages/HusetPage";
 import { Link, BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import OvernattingPage from "./pages/Overnatting";
 import ProgramPage from "./pages/ProgramPage";
-import ØnskelistePage from "./pages/ØnskelistePage";
+import WishlistPage from "./pages/WishlistPage.js";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/overnatting" element={<OvernattingPage />}></Route>
           <Route path="/huset" element={<HusetPage />}></Route>
           <Route path="/program" element={<ProgramPage />}></Route>
-          <Route path="/ønskeliste" element={<ØnskelistePage />}></Route>
+          <Route path="/wishlist" element={<WishlistPage />}></Route>
         </Routes>
       </div>
     </Router>

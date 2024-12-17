@@ -1,5 +1,5 @@
 import React from "react";
-import sjoen from "/Users/hildemikaelsen/Desktop/sideforingrid/sideforingrid/my-app/src/IMG_3545.jpeg";
+import sjoen from "../IMG_3545.jpeg";
 
 function InformationPage() {
   return (

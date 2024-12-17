@@ -1,6 +1,6 @@
 import React from "react";
 
-function ØnskelistePage() {
+function WishlistPage() {
   return (
     <div>
       <h1 className="App-header-frontpage">
@@ -10,4 +10,4 @@ function ØnskelistePage() {
   );
 }
 
-export default ØnskelistePage;
+export default WishlistPage;
