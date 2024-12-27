@@ -1,7 +1,7 @@
-import React from "react";
-import { useState } from "react";
-import MapComponent from "../components/MapComponent";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { useState } from 'react';
+import MapComponent from '../components/MapComponent';
+import { Link } from 'react-router-dom';
 
 function ProgramPage() {
   const [position] = useState({
@@ -30,7 +30,7 @@ function ProgramPage() {
           bryllupslokasjonen. <br />
           Her kan alle bli litt kjent på kryss og tvers før den store dagen på
           lørdag. <br />
-          Dresscode: Sexy&cool
+          Dresscode: TBA
         </h4>
         <h1 className="App-header">Program Lørdag</h1>
         <h3 className="App-header2">Vielse Kl.15</h3>
@@ -41,23 +41,32 @@ function ProgramPage() {
         <h1 className="App-header">Mottakelse på Sundet</h1>
         <h3 className="App-header2">Fra Kl.16.30 og utover</h3>
         <h4 className="App-program-beskrivelse">
-          Familien ønsker velkommen til Sundet. Les mer om eiendommen{" "}
-          <Link to={"/huset"} className="App-link">
+          Familien ønsker velkommen til Sundet. Les mer om eiendommen{' '}
+          <Link
+            to={'/huset'}
+            className="App-link"
+          >
             HER.
           </Link>
         </h4>
         <h1 className="App-header">Middag</h1>
         <h3 className="App-header2">Kl.18.30</h3>
         <h4 className="App-program-beskrivelse">
-          {" "}
-          Treretters middag av Risørkokken blir servert. Kontakt toastmaster{" "}
-          <Link to={"/informasjon"} className="App-link">
+          {' '}
+          Treretters middag av Risørkokken blir servert. Kontakt toastmaster{' '}
+          <Link
+            to={'/informasjon'}
+            className="App-link"
+          >
             HER
-          </Link>{" "}
+          </Link>{' '}
           for å melde inn tale eller andre innslag. <br /> Dersom du har noen
           allergier eller dietter, gjerne meld fra i god tid til brudgommens mor
-          Anne{" "}
-          <Link to={"/informasjon"} className="App-link">
+          Anne{' '}
+          <Link
+            to={'/informasjon'}
+            className="App-link"
+          >
             HER.
           </Link>
         </h4>
